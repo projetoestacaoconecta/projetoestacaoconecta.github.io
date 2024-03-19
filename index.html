@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Estação Conecta</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+  
+  <header>
+
+    <section id="nav"></section>
+
+    <section id="logoEstacao">
+      <span class="toshadow1"></span>
+      <img id="estacaoLogo" src="./images/Estao Conecta Logo - Original with Transparent Background - 5000x5000 1.png" alt="">
+      <span class="toshadow2"></span>
+    </section>
+
+  </header>
+
+  <section id="cardsContainer">
+
+    <section id="oficinas">
+      <h2 class="cardsTypeTitle">Oficinas</h2>
+
+      <div class="cards">
+
+        <div class="card" id="originalCard">
+          <div class="cardVisible">
+            <img src="./images/fundoitem2.jpg" alt="" class="cardImg">
+            <div class="cardContent">
+              <h3 class="cardTitle">Curso de HTML, CSS e JS</h3>
+              <div class="cardTags">
+                <span class="tag tagModel">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <p class="cardShortDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae perspiciatis recusandae sunt odio expedita repellendus quis, id temporibus similique ratione exercitationem, maiores dolore reiciendis vero magnam. Ullam nam inventore esse?</p>
+              <button class="cardButtonMore btn btn-primary">Saiba mais</button>
+            </div>
+          </div>
+          <!-- <div class="cardHidden">
+          </div> -->
+        </div>
+
+      </div>
+    </section>
+
+    <section id="courses">
+      <h2 class="cardsTypeTitle">Cursos</h2>
+
+      <div class="cards"></div>
+    </section>
+
+    <section id="workshops">
+      <h2 class="cardsTypeTitle">Workshops</h2>
+
+      <div class="cards"></div>
+    </section>
+
+
+  </section>
+
+
+  <section>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15707.908779197427!2d-48.37954511284181!3d-10.1825072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b34d9792561fd%3A0x46c870dad9a6640b!2sUniversidade%20Estadual%20do%20Tocantins%20-%20Unitins!5e0!3m2!1spt-BR!2sbr!4v1710867095891!5m2!1spt-BR!2sbr" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+  </section>
+
+
+  <section id="modal">
+    <span id="modalBackground"></span>
+    
+    <div class="modalContent">
+      
+      <div class="modalHeader">
+        <button id="modalCloseButton">
+          <span class="modalIcon material-symbols-outlined">
+            arrow_back
+          </span>
+          <span>Voltar</span>
+        </button>
+        <img class="image" src="./images/fundoitem.jpg" alt="">
+      </div>
+
+      <div class="modalContentContent">
+        <div class="modalHeaderContent">
+          <h2 class="modalTitle">Curso Tal</h3>
+          <span class="modalCardType">Curso</span>
+        </div>
+  
+        <div class="cardTags">
+          <span class="tag tagModel">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+        </div>
+  
+        <div class="modalSection">
+          <h3>Descrição</h3>
+          <div class="modalLongDescription">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, soluta sequi recusandae impedit nisi provident neque repudiandae nostrum! Quia quaerat accusantium sunt dolorem nesciunt, ipsa aspernatur esse provident fuga in!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ratione magni velit aspernatur, modi quisquam sunt quasi dolorum, laudantium, dicta sint ex repellendus consequatur maxime? Quo nulla doloribus eum eligendi!
+          </div>
+        </div>
+
+        <div class="modalSection">
+          <h3>Ministrantes</h3>
+          <div class="modalInstructors">
+            <div class="instructor modalInstrutorModel">
+              <img class="instructorPhoto" src="https://picsum.photos/200" alt="">
+              <span class="instructorName">Nome do ministrante</span>
+            </div>
+            <div class="instructor">
+              <img class="instructorPhoto" src="https://picsum.photos/200" alt="">
+              <span class="instructorName">Nome do ministrante</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modalSection">
+          <h3>Links Úteis</h3>
+
+          <div class="usefulLinks">
+            <details class="usefulLink usefulLinkModel">
+              <summary class="linkTitle">Link 1</summary>
+              <div class="linkContent">
+                <a class="linkLink" href="#" target="_blank">Link 1</a>
+                <img class="linkQr" src="https://picsum.photos/200" alt="">
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <div class="modalSection">
+          <h3>Local</h3>
+          <p class="modalLocation">Salinha b</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+
+  <script type="module" src="data.js"></script>
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>

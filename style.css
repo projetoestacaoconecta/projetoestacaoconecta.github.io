@@ -1,0 +1,350 @@
+/* by me - al */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --font-size-large: 1.125rem;
+  --font-size-medium: 1rem;
+  --font-size-small: 0.875rem;
+  --font-size-extra-small: 0.75rem;
+  --font-size-heading-large: 2rem;
+  --font-size-heading-medium: 1.5rem;
+  --font-size-heading-small: 1.25rem;
+
+  --secondary-background: #e9e9e9;
+  --primary-color: #00acee;
+  --secondary-color: #234edb;
+  --black: #212529;
+  --white: #f0f0f5;
+  --white-2: #f8f9fa;
+  --dark-gray: #303633;
+  --light-gray: #D9D9D9;
+
+  --border-radius-header: 50px;
+  --border-radius-card: 10px;
+
+  font-size: var(--font-size-medium);
+}
+
+header {
+  /* border: 3px solid blue; */
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+}
+
+section#nav {
+  /* border: 3px solid green; */
+  height: 20px;
+  background-color: var(--primary-color);
+}
+
+section#logoEstacao {
+  /* border: 2px solid red; */
+  
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+header [class^="toshadow"] {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+
+header .toshadow1 { 
+  /* border-radius: 0 var(--border-radius-header) 0 0; */
+  border-radius: 0 100% 0 0;
+}
+
+header .toshadow2 { 
+  border-radius: var(--border-radius-header) 0 0 0;
+  border-radius: 100% 0 0 0;
+
+}
+
+#estacaoLogo {
+  /* border: 2px solid #09ff00; */
+
+  margin: 0 auto;
+  display: block;
+  border-radius: 0 0 var(--border-radius-header) var(--border-radius-header);
+  border-radius: 0 0 100% 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  transform: translateY(var(--border-radius-header));
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+#cardsContainer {
+  padding: 40px;
+}
+
+#cardsContainer section {
+  margin-bottom: 40px;
+}
+
+.cardsTypeTitle {
+  margin-bottom: 20px;
+}
+
+#originalCard {
+  display: none;
+}
+
+.cards {
+  background-color: rgba(252, 133, 133, 0.1);
+  /* height: 2px; */
+  display: flex;
+  gap: 40px;
+  /* padding: 40px; */
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 100%;
+  width: calc(50% - 20px);
+  min-width: 500px;
+  flex: 1 0 600px;
+  background-color: var(--dark-gray) !important;
+  padding: 20px;
+  border-radius: var(--border-radius-card) !important;
+  color: var(--white);
+  position: relative;
+}
+
+.card .cardVisible {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.cardImg {
+  max-width: 100%;
+  height: 350px;
+  flex: 1 0 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius-card);
+}
+
+.cardContent {
+  flex: 1 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cardTitle {
+  font-size: var(--font-size-heading-medium);
+  font-weight: 600;
+  /* margin-bottom: 1rem; */
+}
+
+.cardTags {
+  display: flex;
+  gap: 10px;
+  /* margin-bottom: 1rem; */
+}
+
+.tag {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: var(--font-size-extra-small);
+}
+
+.cardShortDescription {
+  font-size: var(--font-size-medium);
+  /* margin-bottom: 1rem; */
+  flex: 1;
+}
+
+.cardButtonMore {
+  /* justify-self: flex-end; */
+  position: relative;
+}
+
+
+/* modal */
+#modal {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  display: none;
+}
+
+#modal.active {
+  display: flex;
+}
+
+#modalBackground {
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.modalContent {
+  /* border: 3px solid blue; */
+  background-color: var(--white);
+  z-index: 2;
+  border-radius: var(--border-radius-card);
+  overflow: hidden;
+
+  width: min(calc(100% - 40px), 800px);
+  max-width: (100% - 40px);
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: calc(100% - 40px);
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.modalHeader {
+  position: relative;
+  /* margin-bottom: 40px; */
+}
+
+#modalCloseButton {
+  background-color: var(--white);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: background-color 0.3s;
+}
+
+#modalCloseButton:hover {
+  background-color: var(--light-gray);
+}
+
+#modalCloseButton:active {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+
+
+.modalContent .image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 350px;
+  filter: brightness(0.7);
+}
+
+.modalContentContent {
+  padding: 0 40px;
+}
+
+.modalHeaderContent {
+  background-color: var(--light-gray);
+  border-radius: var(--border-radius-card);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  position: relative;
+  /* left: -20px; */
+
+  margin: 0 -20px 0 -20px;
+  transform: translate(0, -50%);
+  padding: 20px;
+  width: fit-content;
+  min-width: 300px;
+  margin-bottom: -20px;
+}
+
+.modalSection {
+  outline: 2px solid rgba(255, 0, 0, 0.134);
+  margin-bottom: 40px;
+}
+
+#modal .cardTags {
+  margin-bottom: 40px;
+}
+
+.modalInstructors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid red;
+}
+
+.instructorPhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 2px solid var(--light-gray);
+}
+
+.usefulLinks {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 10px;
+}
+
+.usefulLinks .usefulLink {
+  /* flex: 1 0 300px; */
+  /* padding: 20px; */
+  border-radius: var(--border-radius-card);
+}
+
+.usefulLinks .linkContent {
+  padding: 20px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usefulLinks .linkQr {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: var(--border-radius-card);
+}
+
+details[open] {
+  padding: 10px;
+  background-color: var(--light-gray);
+}
+
+.modalLocation {
+  position: relative;
+}
