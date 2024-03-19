@@ -21,3 +21,13 @@ Links uteis:
 - link2:
   - name: playlist recomendada
   - link: kspdo spokdps
+
+pedidos 
+
+descrição do cursso longa e curta 
+image da pessoa 
+nome completo das pessoas 
+palavra chaves
+
+
+criar/registra  todos cursos/oficinas/workshops
