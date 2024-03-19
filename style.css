@@ -288,7 +288,7 @@ header .toshadow2 {
 }
 
 .modalSection {
-  outline: 2px solid rgba(255, 0, 0, 0.134);
+  outline: 2px solid rgba(255, 0, 0, 0.1K34);
   margin-bottom: 40px;
 }
 
@@ -296,11 +296,30 @@ header .toshadow2 {
   margin-bottom: 40px;
 }
 
+.cardDurationContainer {
+  font-size: var(--font-size-medium);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 40px;
+}
+
+.cardDuration {
+  font-weight: 500;
+}
+
+.cardDurationValue {
+  font-weight: initial;
+}
+
+
 .modalInstructors {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid red;
 }
 
 .instructorPhoto {
@@ -347,4 +366,11 @@ details[open] {
 
 .modalLocation {
   position: relative;
+}
+
+.modalSubscribeButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

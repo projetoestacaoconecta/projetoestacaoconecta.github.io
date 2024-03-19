@@ -15,6 +15,8 @@ const modalInstrutorModel = modalInstructors.querySelector('.modalInstrutorModel
 const modalUsefulLinks = modal.querySelector('.usefulLinks');
 const modalUsefulLinkModel = modalUsefulLinks.querySelector('.usefulLinkModel');
 const modalLocation = modal.querySelector('.modalLocation');
+const modalSubscribeButton = modal.querySelector('.modalSubscribeButton');
+const cardDurationValue = modal.querySelector('.cardDurationValue');
 
 const modalBackground = document.getElementById('modalBackground');
 
@@ -25,6 +27,7 @@ const openModal = (cardData) => {
   modalTitle.innerHTML = cardData.title;
   modalCardType.innerHTML = cardData.cardType;
   modalImage.src = cardData.image;
+  cardDurationValue.innerHTML = cardData.duration;
 
   modalTags.innerHTML = '';
   cardData.tags.forEach((tag) => {
@@ -55,6 +58,8 @@ const openModal = (cardData) => {
 
   modalLocation.innerHTML = cardData.local;
 
+  modalSubscribeButton.href = cardData.subscribeButton;
+
   modal.classList.add('active');
 }
 
@@ -66,16 +71,9 @@ const closeModal = () => {
 modalCloseButton.addEventListener('click', closeModal);
 modalBackground.addEventListener('click', closeModal);
 
-// openModal(data.courses[0]);
-
 console.log(modal)
 
-
-
-
-
 const originalCard = document.getElementById('originalCard');
-// const cloneCard = originalCard.cloneNode(true);
 
 const fillContent = (cardsContainer, cardData) => {
   const cloneCard = originalCard.cloneNode(true);

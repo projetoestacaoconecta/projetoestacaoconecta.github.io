@@ -28,9 +28,9 @@ const data = {
       ],
       usefulLinks: [
         {
-          title: 'Link 1',
-          url: 'https://www.google.com',
-          qrCodeImage: 'https://picsum.photos/200'
+          title: 'Turma Google Classroom',
+          url: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz',
+          qrCodeImage: './images/qrcode/cursohtml.png'
         },
         {
           title: 'Link 2',
@@ -39,7 +39,7 @@ const data = {
         }
       ],
       local: 'Bloco C, sala 101',
-      subscribeButton: 'https://www.google.com'
+      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'
     }
   ],
   oficinas: [
