@@ -85,7 +85,7 @@ header .toshadow2 {
 }
 
 #cardsContainer {
-  padding: 40px;
+  padding: 80px;
 }
 
 #cardsContainer section {
@@ -101,11 +101,8 @@ header .toshadow2 {
 }
 
 .cards {
-  background-color: rgba(252, 133, 133, 0.1);
-  /* height: 2px; */
   display: flex;
   gap: 40px;
-  /* padding: 40px; */
   flex-wrap: wrap;
 }
 
@@ -176,6 +173,96 @@ header .toshadow2 {
   position: relative;
 }
 
+
+/* map */
+
+#map {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  max-width: 100%;
+
+  padding: 80px 40px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+#map h2 {
+  margin-bottom: 20px;
+}
+
+#map iframe {
+  border-radius: var(--border-radius-card);
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* qrCodeProjetoEstacaoConecta */
+#seeMore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  /* border: 2px solid var(--dark-gray); */
+}
+
+#seeMore > * {
+  flex: 1 0 800px;
+  height: 100%;
+}
+
+.qrCodeProjetoEstacaoConectaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.qrCodeProjetoEstacaoConecta {
+  background-color: var(--light-gray);
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: var(--white);
+  border-radius: var(--border-radius-card);
+}
+
+.qrCodeProjetoEstacaoConecta img {
+  /* width: min(100%, 500px); */
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius-card);
+  border: 2px solid red;
+}
+
+.otherLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: fit-content; */
+  /* flex: 1; */
+  /* border: 2px solid red; */
+}
+
+.otherLinks .instagram a {
+  display: flex;
+
+}
+
+.otherLinks .instagram img {
+  color: var(--primary-color);
+  font-size: 100px;
+  width: 100px;
+}
 
 /* modal */
 #modal {
