@@ -1,7 +1,6 @@
 import { data } from "./data.js"
 
 
-
 // modal
 const modal = document.getElementById('modal');
 const modalCloseButton = modal.querySelector('#modalCloseButton');
