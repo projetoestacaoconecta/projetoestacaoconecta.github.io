@@ -207,18 +207,28 @@ header .toshadow2 {
 #seeMore {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   position: relative;
   flex-wrap: wrap;
   margin-bottom: 40px;
   /* border: 2px solid var(--dark-gray); */
+  border: 2px solid blue;
 }
 
-#seeMore > * {
-  flex: 1 0 800px;
+#seeMore > *:not(.divider) {
+  /* flex: 1 0 800px; */
   height: 100%;
+  max-width: 100%;
+  /* border: 2px solid red; */
+  padding: 40px;
 }
+
+/* #seeMore .divider {
+  width: 10px;
+  height: 100%;
+  background-color: var(--dark-gray);
+} */
 
 .qrCodeProjetoEstacaoConectaContainer {
   display: flex;
@@ -230,7 +240,7 @@ header .toshadow2 {
 
 .qrCodeProjetoEstacaoConecta {
   background-color: var(--light-gray);
-  width: 600px;
+  width: min(100%, 600px);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -246,11 +256,11 @@ header .toshadow2 {
   width: 100%;
   object-fit: cover;
   border-radius: var(--border-radius-card);
-  border: 2px solid red;
 }
 
 .otherLinks {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 10px;
   /* width: fit-content; */
@@ -260,13 +270,16 @@ header .toshadow2 {
 
 .otherLinks .instagram a {
   display: flex;
-
+  text-decoration: none;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
-.otherLinks .instagram img {
+.otherLinks .instagram i {
   color: var(--primary-color);
-  font-size: 100px;
-  width: 100px;
+  font-size: 40px;
+  /* width: 100px; */
 }
 
 /* modal */
