@@ -492,7 +492,9 @@ header .toshadow2 {
 }
 
 .usefulLinks .linkLink {
-  word-break: break-all;
+  word-break: break-word;  
+  overflow-wrap: break-word;
+  text-align: center;
 }
 
 .usefulLinks .linkQr {
