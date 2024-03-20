@@ -85,13 +85,18 @@ header .toshadow2 {
 }
 
 #cardsContainer {
-  padding: 80px;
   width: 100%;
   max-width: 100%;
+  position: relative;
+  padding: 40px;
 }
+
+@media (min-width: 1200px) { #cardsContainer { padding: 80px; } }
 
 #cardsContainer section {
   margin-bottom: 40px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .cardsTypeTitle {
@@ -111,7 +116,7 @@ header .toshadow2 {
 .card {
   max-width: 100%;
   width: calc(50% - 20px);
-  min-width: 500px;
+  /* min-width: 500px; */
   flex: 1 0 600px;
   background-color: var(--dark-gray) !important;
   padding: 20px;
