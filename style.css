@@ -180,11 +180,14 @@ header .toshadow2 {
   background-color: rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
   max-width: 100%;
+  /* height: 450px; */
 
   padding: 80px 40px;
   /* display: flex;
   align-items: center;
   justify-content: center; */
+  /* overflow: hidden; */
+  /* position: relative; */
 }
 
 #map h2 {
@@ -194,7 +197,9 @@ header .toshadow2 {
 #map iframe {
   border-radius: var(--border-radius-card);
   width: 100%;
-  overflow: hidden;
+  height: 600px;
+  /* overflow: hidden; */
+  /* height: 100%; */
 }
 
 
