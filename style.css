@@ -100,9 +100,8 @@ header #logoEstacaoHide {
 }
 
 section.centered {
-  /* width: 100%;
   max-width: 2000px !important;
-  margin: auto; */
+  margin: auto;
 }
 
 section#nav {
@@ -196,6 +195,7 @@ header .toshadow2 {
   overflow: hidden;
   row-gap: 20px;
   column-gap: 20px;
+  height: 100%;
 }
 
 .cardImg {
@@ -240,7 +240,7 @@ header .toshadow2 {
 }
 
 .cardButtonMore {
-  /* justify-self: flex-end; */
+  justify-self: flex-end !important;
   position: relative;
 }
 
