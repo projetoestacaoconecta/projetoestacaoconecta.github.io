@@ -96,6 +96,11 @@ header #logoEstacaoHide {
   /* border: 2px solid red; */
 }
 
+section.centered {
+  max-width: 2000px !important;
+  margin: auto;
+}
+
 section#nav {
   /* border: 3px solid green; */
   height: 20px;
