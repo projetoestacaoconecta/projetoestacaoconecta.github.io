@@ -1,5 +1,17 @@
 import { data } from "./data.js"
 
+// header
+window.addEventListener('scroll', function() {
+  var header = document.querySelector('header');
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 0) {
+    header.classList.add('stick', 'small');
+  } else {
+    header.classList.remove('stick', 'small');
+  }
+});
+
 
 // modal
 const modal = document.getElementById('modal');
