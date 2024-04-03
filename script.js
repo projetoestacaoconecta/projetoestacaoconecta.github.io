@@ -1,7 +1,7 @@
 import { data } from "./data.js"
 
 // header
-window.addEventListener('scroll', function() {
+function checkHeaderState() {
   var header = document.querySelector('header');
   var scrollPosition = window.scrollY;
 
@@ -10,6 +10,14 @@ window.addEventListener('scroll', function() {
   } else {
     header.classList.remove('stick', 'small');
   }
+}
+
+window.addEventListener('load', function() {
+  checkHeaderState();
+});
+
+window.addEventListener('scroll', function() {
+  checkHeaderState();
 });
 
 
