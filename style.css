@@ -100,8 +100,9 @@ header #logoEstacaoHide {
 }
 
 section.centered {
+  /* width: 100%;
   max-width: 2000px !important;
-  margin: auto;
+  margin: auto; */
 }
 
 section#nav {
@@ -172,15 +173,20 @@ header .toshadow2 {
 }
 
 .card {
-  max-width: calc(50% - 20px);
   width: calc(50% - 20px);
-  /* min-width: 500px; */
-  flex: 1 0 600px;
+  flex: 1 0 min(600px, 100%);
   background-color: var(--dark-gray) !important;
   padding: 20px;
   border-radius: var(--border-radius-card) !important;
   color: var(--white);
   position: relative;
+}
+
+@media screen and (min-width: 1416px) {
+  .card {
+    max-width: calc(50% - 20px);
+  }
+  
 }
 
 .card .cardVisible {
