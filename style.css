@@ -53,7 +53,6 @@ header #visible {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
 }
 
 header.stick #visible {
