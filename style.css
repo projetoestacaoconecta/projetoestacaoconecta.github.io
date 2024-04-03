@@ -47,14 +47,13 @@ header {
 header #visible {
   backdrop-filter: blur(5px);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.9);
   display: flex;
-  flex-direction: column;
   position: relative;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 header.stick #visible {
@@ -65,8 +64,13 @@ header.stick #visible img {
   padding: 10px;
 }
 
+header #logoEstacaoHide {
+  padding: 0 !important;
+  visibility: hidden;
+}
+
 header.stick #logoEstacaoHide {
-  display: visible;
+  visibility: visible;
 }
 
 
@@ -169,7 +173,7 @@ header .toshadow2 {
 }
 
 .card {
-  max-width: 100%;
+  max-width: calc(50% - 20px);
   width: calc(50% - 20px);
   /* min-width: 500px; */
   flex: 1 0 600px;
