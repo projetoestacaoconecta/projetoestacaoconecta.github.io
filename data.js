@@ -19,11 +19,11 @@ const data = {
       instructors: [
         {
           name: 'João Silva',
-          photo: 'https://picsum.photos/200'
+          photo: 'images/user.jpg'
         },
         {
           name: 'Maria Souza',
-          photo: 'https://picsum.photos/200'
+          photo: 'images/user.jpg'
         }
       ],
       usefulLinks: [
@@ -44,12 +44,34 @@ const data = {
   ],
   oficinas: [
     {
-      id: 'oficina1',
-      cardType: 'Oficina',
-      duration: '2 horas',
-      title: 'Oficina de Python',
-      tags: ['Python', 'Programação'],
-      shortDescription: 'Aprenda a programar em Python de forma prática e rápida. Ideal para quem quer começar a programar.',
+      id: 'oficinas1',
+      cardType: 'oficinas',
+      duration: '3 horas',
+      title: 'Oficina de Otimização de Tempo',
+      image: 'images/gestaoDeTempo/tempo.jpg',
+      tags: ['produtividade', 'velocidade', 'economia de tempo'],
+      shortDescription: 'Nesse curso voce vai aprender forma de otimizar o seu tempo.',
+      longDescription: 'Nesse curso você vai aprender forma de otimizar usando ferramentas e melhor a forma de gerir o seu tempo e pensar nas melhores forma'
+      ,
+      instructors: [
+        {
+          name: 'Jeezyel Pereira Costa',
+          photo: 'images/user.jpg'
+        },
+        {
+          name: 'Leandro Guimarães Garcia',
+          photo: 'images/user.jpg'
+        }
+      ],
+      usefulLinks: [
+        {
+          title: 'Turma Google Classroom',
+          url: 'colocar o qrcode',
+          qrCodeImage: 'https://picsum.photos/200'
+        },
+      ],
+      local: 'ex: Bloco C, sala 101 colocar depos',
+      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     }, 
     {
       id: 'oficina2',
