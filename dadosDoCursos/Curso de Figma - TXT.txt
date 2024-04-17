@@ -1,0 +1,30 @@
+Nome do curso: Oficina de Design e Prototipação com Figma
+
+Pequena descirção do curso: O curso irá ensinar os seus cursantes a fazer uma protoptipagem funcional para o Figma.
+
+Ministrantes:
+- Nome: Lucas Santos, Lucas Castro, Filipe Dias
+https://docs.google.com/document/d/1WKiKjvCplYLnl-0VL2cx2q2aDDtYjftW/edit?usp=sharing&ouid=105062537926378512763&rtpof=true&sd=true
+
+- local: Câmpus Palmas, Bloco B.
+
+
+Links uteis:
+
+- link1:
+	nome: Links gerais:
+	link: https://dontpad.com/estacaoconectaUNITINS/figma
+
+Pequena descirção do curso: O curso irá ensinar os seus cursantes a fazer uma protoptipagem funcional para o Figma.
+
+Descrição longa: O objetivo final do curso é montar um protótipo executável e funcional. Esse protótipo será uma poderosa ferramenta para demonstrar a clientes e gerentes interessados na criação de uma plataforma digital de vendas. Prepare-se para explorar o Figma e elevar suas habilidades de design para um novo patamar!
+
+Imagem das pessoas:
+https://drive.google.com/drive/folders/1sQJ-eKnAXv-h_quZFPw8CYgGxEgLxaDH?usp=drive_link
+
+Palavras chaves do Curso:
+Prototipação,
+Interfaces, 
+Experiência de Usuário,
+Criatividade,
+Inteligência

@@ -1,0 +1,28 @@
+Nome do curso: Aprendendo a compartilhar seu projeto com git e github!
+
+Pequena descirção do curso :
+Você irá aprender a como pode compartilhar e versionar seus projetos mais legais dentro da rede social dos desenvolvedores, usando Git e Github!
+
+Ministrantes:
+- Nome: João Victor Póvoa França, Vitória Gabriela
+- nome do arquivo no drive: Oficina git e github
+
+- local: ainda não decidido
+ex: (Campus palmas, bloco c, sala 2)
+
+
+Links uteis:
+
+- link1:
+  - nome: github JoaoIto
+  - link: https://github.com/JoaoIto
+
+  - nome: github Vitoria
+  - link: https://github.com/viihgabs
+ 
+
+image da pessoa:  
+nome completo das pessoas que vão palestrar: João Victor Póvoa França, Vitória Gabriela
+palavra chaves do curso: Git, Github, JavaScript, Share, Compartilhar, Versionar
+
+

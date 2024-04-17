@@ -1,0 +1,35 @@
+Nome do curso: Curso Básico de HTML5/CSS3/JS
+
+Pequena descrição do curso :
+Descubra o mundo do desenvolvimento de websites com nosso curso introdutório, projetado especialmente para quem está começando. 
+Neste curso, você aprenderá a estruturar páginas com HTML, estilizá-las com CSS e adicionar interatividade com JavaScript.
+
+Longa descrição do curso :
+Descubra o mundo do desenvolvimento de websites com nosso curso introdutório, projetado especialmente para quem está começando. 
+Neste curso, você aprenderá a estruturar páginas com HTML, estilizá-las com CSS e adicionar interatividade com JavaScript.
+
+O curso conta com diversas experiencias como:
+ - HTML: Você começará entendendo a estrutura básica de uma página web, utilizando HTML para criar elementos como cabeçalhos, parágrafos, links e imagens.
+ - CSS: Em seguida, exploraremos como usar CSS para dar estilo ao seu site. Você aprenderá sobre cores, fontes, alinhamento e o layout de página, além de técnicas para fazer seu site se destacar visualmente.
+ - JavaScript: Por fim, introduziremos conceitos básicos de JavaScript, a linguagem que traz interatividade ao seu site. Você aprenderá a manipular elementos HTML, responder a eventos do usuário e implementar lógica básica.
+
+Ministrantes:
+- Nome: Luiz Eduardo woicik
+
+- Nome: Alfredo de Souza Aguiar Neto
+
+- Nome: Andre Barreira
+
+local: ainda não decidido
+
+
+Links uteis:
+
+- link1:
+  - nome: link de convite sala classroom
+  - link: https://classroom.google.com/c/NjY4ODk2OTU2MDYz?cjc=gfjni7n
+
+palavra chaves do curso:
+HTML, CSS, JS, Iniciante
+
+

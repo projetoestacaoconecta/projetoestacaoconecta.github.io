@@ -1,0 +1,49 @@
+Nome do curso: Workshop de boas práticas em suporte de sistemas
+
+Pequena descirção do curso :
+Este curso tem como objetivo apresentar as melhores práticas e estratégias para oferecer suporte eficaz a sistemas de software. Durante a sessão, serão exploradas técnicas para identificar, diagnosticar e resolver problemas de maneira rápida e eficiente, proporcionando aos participantes as habilidades necessárias para fornecer suporte de alta qualidade para usuários e clientes.
+
+Ministrantes:
+- Nome: Luiz Cláudio de Oliveira e Jônatas Pereira de Jesus Daher
+- nome do arquivo no drive
+
+- local: Unitins Campus Palmas, 05/06/2024
+
+
+Links uteis:
+
+- link1:
+  - nome: sala classroom
+  - link: https://drive.google.com/drive/u/3/folders/11WgWUi5jq1UyQBEcqkewnvb0ZY5m3QiL
+
+
+- link2:
+  - name: playlist recomendada
+  - link: https://www.youtube.com/playlist?list=PLl0IAB0xVmuS_iNXFUdYbBGdArj6dKF8o
+
+pedidos 
+
+descrição longa do curso:
+
+Workshop sobre Boas Práticas de Suporte a Sistemas: Um Guia Completo
+Introdução
+
+Organizar um workshop sobre boas práticas de suporte a sistemas é uma iniciativa louvável, com o potencial de aprimorar as habilidades e conhecimentos dos participantes em uma área crucial para o bom funcionamento de empresas e organizações. Para garantir o sucesso do seu evento, este guia oferece sugestões detalhadas sobre como apresentar o conteúdo aos alunos, além de um programa abrangente, playlists e outros recursos valiosos.
+
+Público-alvo
+
+O workshop é direcionado a profissionais da área de TI, estudantes de tecnologia da informação, e demais interessados em aprimorar seus conhecimentos e habilidades em suporte a sistemas.
+
+Objetivos
+
+Ao final do workshop, os participantes poderão ser capazes de:
+
+Compreender os princípios fundamentais do suporte a sistemas: Abordaremos os conceitos básicos, a importância e os diferentes níveis de suporte.
+Gerenciar chamados de forma eficiente: Apresentaremos ferramentas e metodologias para organizar, priorizar e solucionar solicitações de suporte de maneira ágil e eficaz.
+Identificar e solucionar problemas comuns em sistemas: Abordaremos falhas de hardware, software e rede, além de técnicas de diagnóstico e resolução.
+Implementar medidas proativas para prevenir problemas: Discutiremos estratégias de monitoramento, manutenção preventiva e segurança da informação.
+Utilizar ferramentas de suporte técnico: Apresentaremos softwares e plataformas que auxiliam na gestão de chamados, resolução de problemas e comunicação com clientes.
+
+
+
+

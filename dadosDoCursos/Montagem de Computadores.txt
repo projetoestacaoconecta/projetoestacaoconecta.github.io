@@ -1,0 +1,37 @@
+﻿Nome do curso: Workshop: Montagem de Computadores
+Pequena descirção do curso :
+O workshop "Montagem de Computadores" é uma experiência educativa criada para ensinar aos participantes os fundamentos práticos de como montar um computador desktop do zero. Durante o curso, você irá explorar os componentes e principais sistemas operacionais de um computador e aprender boas praticas de montagem. 
+
+
+
+
+Ministrantes:
+- Nome: Gabriel Alves da Silva
+- Nome: Felipe Ferreira de Sousa
+- Nome: Luis Eduardo Noleto de Melo
+- Workshop: Montagem de Computadores
+
+
+
+
+- local: Bloco B labin 6
+
+
+
+
+Links uteis:
+
+
+
+
+- Classroom:  https://classroom.google.com/c/NjY4ODk1NTg5Mzgz?cjc=oe6z2xv
+
+
+
+
+pedidos 
+
+
+
+
+Necessito de um computador com placa mae, memoria ram, coller, hd ou ssd, placa de video RTX 4080 (na caixa), fonte, gabinete monitor, mouse, teclado.
