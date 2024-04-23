@@ -47,7 +47,7 @@ const data = {
       id: 'oficinas1',
       cardType: 'oficinas',
       duration: '3 horas',
-      title: 'Oficina de Otimização de Tempo',
+      title: 'workshop para modelagem usando BPMN',
       image: 'images/gestaoDeTempo/tempo.jpg',
       tags: ['produtividade', 'velocidade', 'economia de tempo'],
       shortDescription: 'Nesse curso voce vai aprender forma de otimizar o seu tempo.',
