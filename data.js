@@ -35,7 +35,7 @@ const data = {
         {
           title: 'links gerais',
           url: 'https://dontpad.com/estacaoconectaUNITINS/figma',
-          qrCodeImage: 'images/FIGMA/qr-code FIGMA.PNG'
+          qrCodeImage: 'images/FIGMA/qr-code FIGMA.png'
         },
       ],
       local: 'local: Câmpus Palmas, Bloco B.', // comfirma o local
@@ -70,7 +70,7 @@ const data = {
         {
           title: 'link de convite sala classroom',
           url: 'https://classroom.google.com/c/NjY4ODk2OTU2MDYz?cjc=gfjni7n',
-          qrCodeImage: 'images/htmlCSS/qr-codeHTMLCSSJS.PNG'
+          qrCodeImage: 'images/htmlCSS/qr-codeHTMLCSSJS.png'
         },
       ],
       local: 'ainda não decidido.', // comfirma o local
@@ -82,7 +82,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'Aprendendo a compartilhar seu projeto com git e github!',
-      image: 'images/GIT/GIT.PNG',
+      image: 'images/GIT/GIT.png',
       tags: ['Git', 'Github', 'JavaScript', 'Share', 'Compartilhar', 'Versionar'],
       shortDescription: 'Você irá aprender a como pode compartilhar e versionar seus projetos mais legais dentro da rede social dos desenvolvedores, usando Git e Github!',
       longDescription: 'Você irá aprender a como pode compartilhar e versionar seus projetos mais legais dentro da rede social dos desenvolvedores, usando Git e Github!',
@@ -101,12 +101,12 @@ const data = {
         {
           title: 'github JoaoIto',
           url: 'https://github.com/JoaoIto',
-          qrCodeImage: 'images/GIT/qr-codeGITJ.PNG'
+          qrCodeImage: 'images/GIT/qr-codeGITJ.png'
         },
         {
           title: 'github Vitoria',
           url: 'https://github.com/viihgabs',
-          qrCodeImage: 'images/GIT/qr-codeGITV.PNG'
+          qrCodeImage: 'images/GIT/qr-codeGITV.png'
         },
       ],
       local: 'ainda não decidido.', // comfirma o local
@@ -118,7 +118,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'Workshop de Ferramentas de Edição: Word, Excel, Powerpoint e Canva',
-      image: 'images/FERRAMENTAS/FERRAMENTAS.PNG',
+      image: 'images/FERRAMENTAS/FERRAMENTAS.png',
       tags: ['Word', 'Excel', 'Powerpoint', 'Canva'],
       shortDescription: 'Este Workshop capacitará os participantes no uso das ferramentas Word, Excel, Powerpoint e Canva, essenciais para a comunicação e apresentação de informações em ambientes acadêmicos e corporativos, aprimorando assim, suas produções e apresentações.',
       longDescription: 'O Workshop irá apresentar e orientar os participantes sobre o uso das ferramentas mais utilizadas no mundo profissional atualmente: Word, Excel, PowerPoint e Canva. Essas ferramentas desempenham um papel fundamental na comunicação, organização e apresentação de informações em diversos contextos, desde o ambiente acadêmico até o corporativo, e visa capacitar os participantes a dominar as principais funcionalidades dessas ferramentas, fornecendo-lhes habilidades práticas para aprimorar suas produções e apresentações.',
@@ -149,7 +149,7 @@ const data = {
         {
           title: 'Material do Workshop de edição',
           url: 'https://drive.google.com/drive/folders/14zsyMCyln7hvhjutol6MNqOCcYFTw8NE?usp=sharing',
-          qrCodeImage: 'images/FERRAMENTAS/qr-codeFERRAMENTAS.PNG'
+          qrCodeImage: 'images/FERRAMENTAS/qr-codeFERRAMENTAS.png'
         },
       ],
       local: 'UNITINS - Campus Graciosa, Bloco B, Labin III.', // comfirma o local
@@ -233,7 +233,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'workshop para modelagem usando BPMN',
-      image: 'images/bpmn/bpmn.PNG',
+      image: 'images/bpmn/bpmn.png',
       tags: ['Gestão de fluxo', 'velocidade', 'Gestão de projetos'],
       shortDescription: 'Nesse Workshop voce vai o que e e pra que server o BPMN.',
       longDescription: 'Nesse Workshop você vai aprender para que server o BPMN.'
@@ -252,7 +252,7 @@ const data = {
         {
           title: 'Turma Google sala de aula',
           url: 'https://classroom.google.com/c/NjY4ODkzNTk0NDQz',
-          qrCodeImage: 'images/bpmn/qr-codebpmn.PNG'
+          qrCodeImage: 'images/bpmn/qr-codebpmn.png'
         },
       ],
       local: 'ex: Bloco C, sala 101 colocar depos', // comfirma o local
