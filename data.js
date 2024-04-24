@@ -12,7 +12,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'Workshop de Design e Prototipação com Figma',
-      image: 'images/FIGMA/FIGMA.png',
+      image: 'images/figma/figma.png',
       tags: ['Prototipação', 'Interfaces', 'Experiência de Usuário ', 'Criatividade' , 'Inteligência'],
       shortDescription: 'O Workshop irá ensinar os seus cursantes a fazer uma protoptipagem funcional para o Figma.',
       longDescription: 'O objetivo final do Workshop é montar um protótipo executável e funcional. Esse protótipo será uma poderosa ferramenta para demonstrar a clientes e gerentes interessados na criação de uma plataforma digital de vendas. Prepare-se para explorar o Figma e elevar suas habilidades de design para um novo patamar!'
@@ -35,7 +35,7 @@ const data = {
         {
           title: 'links gerais',
           url: 'https://dontpad.com/estacaoconectaUNITINS/figma',
-          qrCodeImage: 'images/FIGMA/qr-code FIGMA.png'
+          qrCodeImage: 'images/figma/qr-codefigma.png'
         },
       ],
       local: 'local: Câmpus Palmas, Bloco B.', // comfirma o local
@@ -47,7 +47,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'Workshop Básico de HTML5/CSS3/JS',
-      image: 'images/htmlCSS/html e css .jpg',
+      image: 'images/htmlcss/htmlecss.jpg',
       tags: ['Iniciante', 'JS', 'CSS', 'HTML'],
       shortDescription: 'Descubra o mundo do desenvolvimento de websites com nosso Workshop introdutório, projetado especialmente para quem está começando. Neste Workshop, você aprenderá a estruturar páginas com HTML, estilizá-las com CSS e adicionar interatividade com JavaScript.',
       longDescription: 'Descubra o mundo do desenvolvimento de websites com nosso Workshop introdutório, projetado especialmente para quem está começando. Neste Workshop, você aprenderá a estruturar páginas com HTML, estilizá-las com CSS e adicionar interatividade com JavaScript.',
@@ -70,7 +70,7 @@ const data = {
         {
           title: 'link de convite sala classroom',
           url: 'https://classroom.google.com/c/NjY4ODk2OTU2MDYz?cjc=gfjni7n',
-          qrCodeImage: 'images/htmlCSS/qr-codeHTMLCSSJS.png'
+          qrCodeImage: 'images/htmlcss/qr-codehtmlcssjs.png'
         },
       ],
       local: 'ainda não decidido.', // comfirma o local
@@ -196,7 +196,7 @@ const data = {
       cardType: 'Workshop',
       duration: '2 horas',
       title: 'Workshop de boas práticas em suporte de sistemas',
-      image: 'images/BOAS/BOAS.PNG',
+      image: 'images/boas/boas.PNG',
       tags: ['Gerenciamento de incidentes', 'Resolução de problemas', 'Monitoramento de sistemas', 'Segurança da informação'],
       shortDescription: 'Este Workshop tem como objetivo apresentar as melhores práticas e estratégias para oferecer suporte eficaz a sistemas de software. Durante a sessão, serão exploradas técnicas para identificar, diagnosticar e resolver problemas de maneira rápida e eficiente, proporcionando aos participantes as habilidades necessárias para fornecer suporte de alta qualidade para usuários e clientes.',
       longDescription: 'Este Workshop tem como objetivo apresentar as melhores práticas e estratégias para oferecer suporte eficaz a sistemas de software. Durante a sessão, serão exploradas técnicas para identificar, diagnosticar e resolver problemas de maneira rápida e eficiente, proporcionando aos participantes as habilidades necessárias para fornecer suporte de alta qualidade para usuários e clientes.',
@@ -215,12 +215,12 @@ const data = {
         {
           title: 'google sala de aula',
           url: 'https://drive.google.com/drive/u/3/folders/11WgWUi5jq1UyQBEcqkewnvb0ZY5m3QiL',
-          qrCodeImage: 'images/BOAS/qr-codeBOAS GOOGLE SALA.PNG'
+          qrCodeImage: 'images/boas/qr-codeboass.png'
         },
         {
           title: 'playlist recomendada',
           url: 'https://www.youtube.com/playlist?list=PLl0IAB0xVmuS_iNXFUdYbBGdArj6dKF8o',
-          qrCodeImage: 'images/BOAS/qr-codeBOAS YT.PNG'
+          qrCodeImage: 'images/boas/qr-codeboasy.png'
         },
       ],
       local: 'UNITINS - ...', // comfirma o local
