@@ -57,8 +57,13 @@ header #visible {
 }
 
 .visibleImageHolder {
-  max-width: 50%;
+  outline: 2px solid red;
+  outline-offset: -2px;
+  max-width: 45% !important;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header #visible img {
