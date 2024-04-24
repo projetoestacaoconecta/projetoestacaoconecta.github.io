@@ -66,6 +66,7 @@ header.stick #visible img {
 header #logoEstacaoHide {
   padding: 0 !important;
   /* visibility: hidden; */
+  object-fit: fill;
 }
 
 header.stick #logoEstacaoHide {
