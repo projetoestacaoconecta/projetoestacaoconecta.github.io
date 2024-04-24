@@ -161,7 +161,7 @@ const data = {
       cardType: 'Workshop',
       duration: '2 horas',
       title: 'Montagem de Computadores',
-      image: 'images/MONTAGEM/MONTAGEM.PNG',
+      image: 'images/MONTAGEM/MONTAGEM.png',
       tags: ['Reparo de Computadores', 'Manotemção de Computadores'],
       shortDescription: 'O workshop "Montagem de Computadores" é uma experiência educativa criada para ensinar aos participantes os fundamentos práticos de como montar um computador desktop do zero. Durante o Workshop, você irá explorar os componentes e principais sistemas operacionais de um computador e aprender boas praticas de montagem.',
       longDescription: 'O workshop "Montagem de Computadores" é uma experiência educativa criada para ensinar aos participantes os fundamentos práticos de como montar um computador desktop do zero. Durante o Workshop, você irá explorar os componentes e principais sistemas operacionais de um computador e aprender boas praticas de montagem.',
@@ -184,7 +184,7 @@ const data = {
         {
           title: 'google sala de aula',
           url: 'https://classroom.google.com/c/NjY4ODk1NTg5Mzgz?cjc=oe6z2xv',
-          qrCodeImage: 'images/MONTAGEM/qr-codeMONTAGEM.PNG'
+          qrCodeImage: 'images/MONTAGEM/qr-codeMONTAGEM.png'
         },
       ],
       local: 'UNITINS - Bloco B labin 6.', // comfirma o local
