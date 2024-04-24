@@ -233,7 +233,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'workshop para modelagem usando BPMN',
-      image: 'images/BPMN/BPMN.PNG',
+      image: 'images/bpmn/bpmn.PNG',
       tags: ['Gestão de fluxo', 'velocidade', 'Gestão de projetos'],
       shortDescription: 'Nesse Workshop voce vai o que e e pra que server o BPMN.',
       longDescription: 'Nesse Workshop você vai aprender para que server o BPMN.'
@@ -252,7 +252,7 @@ const data = {
         {
           title: 'Turma Google sala de aula',
           url: 'https://classroom.google.com/c/NjY4ODkzNTk0NDQz',
-          qrCodeImage: 'images/BPMN/qr-code BPMN.PNG'
+          qrCodeImage: 'images/bpmn/qr-codebpmn.PNG'
         },
       ],
       local: 'ex: Bloco C, sala 101 colocar depos', // comfirma o local
