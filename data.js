@@ -12,7 +12,7 @@ const data = {
       cardType: 'Workshop',
       duration: '3 horas',
       title: 'Workshop de Design e Prototipação com Figma',
-      image: 'images/FIGMA/FIGMA.PNG',
+      image: 'images/FIGMA/FIGMA.png',
       tags: ['Prototipação', 'Interfaces', 'Experiência de Usuário ', 'Criatividade' , 'Inteligência'],
       shortDescription: 'O Workshop irá ensinar os seus cursantes a fazer uma protoptipagem funcional para o Figma.',
       longDescription: 'O objetivo final do Workshop é montar um protótipo executável e funcional. Esse protótipo será uma poderosa ferramenta para demonstrar a clientes e gerentes interessados na criação de uma plataforma digital de vendas. Prepare-se para explorar o Figma e elevar suas habilidades de design para um novo patamar!'
