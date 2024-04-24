@@ -65,7 +65,7 @@ header.stick #visible img {
 
 header #logoEstacaoHide {
   padding: 0 !important;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 header.stick #logoEstacaoHide {
@@ -146,13 +146,13 @@ header .toshadow2 {
   width: 100%;
   max-width: 100%;
   position: relative;
-  padding: 40px;
+  padding: 20px;
 }
 
 @media (min-width: 1200px) { #cardsContainer { padding: 80px; } }
 
 #cardsContainer section {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   width: 100%;
   max-width: 100%;
 }
@@ -200,10 +200,14 @@ header .toshadow2 {
 
 .cardImg {
   max-width: 100%;
-  height: 350px;
-  flex: 1 0 400px;
+  min-width: 100%;
+  flex: 1;
   object-fit: cover;
   border-radius: var(--border-radius-card);
+
+  height: auto;
+  aspect-ratio: 16 / 9; 
+  aspect-ratio: 21 / 9;
 }
 
 .cardContent {
@@ -222,6 +226,7 @@ header .toshadow2 {
 .cardTags {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
   /* margin-bottom: 1rem; */
 }
 
