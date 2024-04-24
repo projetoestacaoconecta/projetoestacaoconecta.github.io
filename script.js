@@ -104,6 +104,7 @@ const fillContent = (cardsContainer, cardData) => {
   cloneCard.querySelector('.cardTitle').innerHTML = cardData.title;
   cloneCard.querySelector('.cardShortDescription').innerHTML = cardData.shortDescription;
   cloneCard.querySelector('.cardButtonMore').addEventListener('click', () => openModal(cardData));
+  cloneCard.querySelector('.cardImg').src = cardData.image;
 
   cardTags.innerHTML = '';
   cardData.tags.forEach((tag) => {
