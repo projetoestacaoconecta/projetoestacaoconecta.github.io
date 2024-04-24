@@ -38,7 +38,7 @@ const data = {
           qrCodeImage: 'images/workshopfigma/qr-codefigma.png'
         },
       ],
-      local: 'local: Câmpus Palmas, Bloco B.', // comfirma o local
+      local: 'local: Câmpus Palmas, Bloco B Labin II.', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -73,7 +73,7 @@ const data = {
           qrCodeImage: 'images/htmlecss/qr-codehtmlcssjs.png'
         },
       ],
-      local: 'ainda não decidido.', // comfirma o local
+      local: 'local: Câmpus Palmas, Bloco B Labin I.', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -109,7 +109,7 @@ const data = {
           qrCodeImage: 'images/workshopgit/qr-codegitv.png'
         },
       ],
-      local: 'ainda não decidido.', // comfirma o local
+      local: 'local: Câmpus Palmas, Bloco B Labin III..', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -152,7 +152,7 @@ const data = {
           qrCodeImage: 'images/workshopferramenta/qr-codeferramenta.png'
         },
       ],
-      local: 'UNITINS - Campus Graciosa, Bloco B, Labin III.', // comfirma o local
+      local: 'UNITINS - Campus Graciosa, Bloco C, Labin IV.', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -187,7 +187,7 @@ const data = {
           qrCodeImage: 'images/montagemdecomputador/qr-codemontagem.png'
         },
       ],
-      local: 'UNITINS - Bloco B labin 6.', // comfirma o local
+      local: 'UNITINS - Campus Graciosa, Bloco B, Labin IV.', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -223,7 +223,7 @@ const data = {
           qrCodeImage: 'images/boasprativa/qr-codeboasy.png'
         },
       ],
-      local: 'UNITINS - ...', // comfirma o local
+      local: 'UNITINS - Campus Graciosa, Bloco B, SALA 10.', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -255,7 +255,7 @@ const data = {
           qrCodeImage: 'images/workshop-bpmn/qr-codebpmn.png'
         },
       ],
-      local: 'ex: Bloco C, sala 101 colocar depos', // comfirma o local
+      local: 'UNITINS - Campus Graciosa, Bloco C, Sala 02.', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     },
   ],
