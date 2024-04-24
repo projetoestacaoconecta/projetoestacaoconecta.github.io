@@ -53,7 +53,22 @@ header #visible {
   height: 100%;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
+
+.visibleImageHolder {
+  border: 2px solid red;
+  max-width: 50%;
+  position: relative;
+}
+
+header #visible img {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 
 header.stick #visible {
   height: 60px;
@@ -97,7 +112,6 @@ header #logoEstacaoHide {
 
 #logoEstacao img {
   width: min(100%, 1000px);
-  /* border: 2px solid red; */
 }
 
 section.centered {
