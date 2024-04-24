@@ -48,10 +48,10 @@ const data = {
       cardType: 'oficinas',
       duration: '3 horas',
       title: 'workshop para modelagem usando BPMN',
-      image: 'images/gestaoDeTempo/tempo.jpg',
-      tags: ['produtividade', 'velocidade', 'economia de tempo'],
-      shortDescription: 'Nesse curso voce vai aprender forma de otimizar o seu tempo.',
-      longDescription: 'Nesse curso você vai aprender forma de otimizar usando ferramentas e melhor a forma de gerir o seu tempo e pensar nas melhores forma'
+      image: 'images/BPMN/BPMN.PNG',
+      tags: ['Gestão de fluxo', 'velocidade', 'Gestão de projetos'],
+      shortDescription: 'Nesse curso voce vai o que e e pra que server o BPMN.',
+      longDescription: 'Nesse curso você vai aprender para que server o BPMN.'
       ,
       instructors: [
         {
@@ -65,22 +65,49 @@ const data = {
       ],
       usefulLinks: [
         {
-          title: 'Turma Google Classroom',
-          url: 'colocar o qrcode',
-          qrCodeImage: 'https://picsum.photos/200'
+          title: 'Turma Google sala de aula',
+          url: 'https://classroom.google.com/c/NjY4ODkzNTk0NDQz',
+          qrCodeImage: 'images/BPMN/qr-code BPMN.PNG'
         },
       ],
-      local: 'ex: Bloco C, sala 101 colocar depos',
+      local: 'ex: Bloco C, sala 101 colocar depos', // comfirma o local
       subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
     }, 
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
-      id: 'oficina2',
-      cardType: 'Oficina',
-      duration: '1 hora',
-      title: 'Oficina de Git e GitHub',
-      tags: ['Git', 'GitHub', 'Controle de versão'],
-      shortDescription: 'Aprenda a utilizar o Git e o GitHub para versionar e compartilhar seu código.',
-    }
+      id: 'oficinas1',
+      cardType: 'oficinas',
+      duration: '3 horas',
+      title: 'Oficina de Design e Prototipação com Figma',
+      image: 'images/FIGMA/FIGMA.PNG',
+      tags: ['Prototipação', 'Interfaces', 'Experiência de Usuário ', 'Criatividade' , 'Inteligência'],
+      shortDescription: 'O curso irá ensinar os seus cursantes a fazer uma protoptipagem funcional para o Figma.',
+      longDescription: 'O objetivo final do curso é montar um protótipo executável e funcional. Esse protótipo será uma poderosa ferramenta para demonstrar a clientes e gerentes interessados na criação de uma plataforma digital de vendas. Prepare-se para explorar o Figma e elevar suas habilidades de design para um novo patamar!'
+      ,
+      instructors: [
+        {
+          name: 'Lucas Santos',
+          photo: 'images/user.jpg'
+        },
+        {
+          name: 'Lucas Castro',
+          photo: 'images/user.jpg'
+        },
+        {
+          name: 'Filipe Dias',
+          photo: 'images/user.jpg'
+        }
+      ],
+      usefulLinks: [
+        {
+          title: 'links gerais',
+          url: 'https://dontpad.com/estacaoconectaUNITINS/figma',
+          qrCodeImage: 'images/FIGMA/qr-code FIGMA.PNG'
+        },
+      ],
+      local: 'local: Câmpus Palmas, Bloco B.', // comfirma o local
+      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quendo estiver pronto
+    },
   ],
   workshops: [
     {
