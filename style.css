@@ -189,25 +189,27 @@ header .toshadow2 {
 }
 
 .card .cardVisible {
-  /* border: 2px solid red; */
+  position: relative;
+
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   overflow: hidden;
   row-gap: 20px;
   column-gap: 20px;
   height: 100%;
+
+  max-height: fit-content !important;
 }
 
 .cardImg {
   max-width: 100%;
   min-width: 100%;
-  flex: 1;
   object-fit: cover;
   border-radius: var(--border-radius-card);
 
-  height: auto;
-  aspect-ratio: 16 / 9; 
-  aspect-ratio: 21 / 9;
+  --height: min(350px, max(250px, 30vw));
+  height: var(--height);
+  min-height: var(--height);
 }
 
 .cardContent {
@@ -240,7 +242,6 @@ header .toshadow2 {
 
 .cardShortDescription {
   font-size: var(--font-size-medium);
-  /* margin-bottom: 1rem; */
   flex: 1;
 }
 
@@ -465,14 +466,23 @@ header .toshadow2 {
   color: var(--white);
 }
 
+.imageHolder {
+  position: relative;
+}	
 
+.spanImage {
+  position: absolute;
+  display: block;
+  inset: 0;
+  backdrop-filter: blur(5px) brightness(0.9);
+}
 
 .modalContent .image {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
   height: 350px;
-  filter: brightness(0.7);
+  /* filter: brightness(0.7) blur(100px); */
 }
 
 .modalContentContent {
@@ -480,7 +490,8 @@ header .toshadow2 {
 }
 
 .modalHeaderContent {
-  background-color: var(--light-gray);
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
   border-radius: var(--border-radius-card);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   position: relative;
@@ -489,9 +500,11 @@ header .toshadow2 {
   margin: 0 -20px 0 -20px;
   transform: translate(0, -50%);
   padding: 20px;
-  width: fit-content;
-  min-width: 300px;
   margin-bottom: -20px;
+
+  background-image: url(images/back-h-modal.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .modalSection {

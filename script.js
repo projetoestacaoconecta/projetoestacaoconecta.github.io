@@ -23,6 +23,7 @@ window.addEventListener('scroll', function() {
 
 // modal
 const modal = document.getElementById('modal');
+const modalContent = document.querySelector('.modalContent');
 const modalCloseButton = modal.querySelector('#modalCloseButton');
 const modalImage = modal.querySelector('.image');
 const modalTitle = modal.querySelector('.modalTitle');
@@ -43,6 +44,10 @@ const modalBackground = document.getElementById('modalBackground');
 const openModal = (cardData) => {
   document.body.style.overflow = 'hidden';
 
+  //scroll modal
+  setTimeout(() => {
+    modalContent.scrollTop = 0;
+  }, 0);
 
   modalTitle.innerHTML = cardData.title;
   modalCardType.innerHTML = cardData.cardType;
