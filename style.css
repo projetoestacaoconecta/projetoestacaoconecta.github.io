@@ -619,9 +619,14 @@ details[open] {
   position: relative;
 }
 
-.modalSubscribeButton {
+.modalButton {
   width: 100%;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: flex-start; */
+}
+
+.modalButton button {
+  width: 100%;
 }

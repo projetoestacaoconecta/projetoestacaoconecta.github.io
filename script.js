@@ -33,10 +33,8 @@ const modalTagModel = modalTags.querySelector('.tagModel');
 const modalLongDescription = modal.querySelector('.modalLongDescription');
 const modalInstructors = modal.querySelector('.modalInstructors');
 const modalInstrutorModel = modalInstructors.querySelector('.modalInstrutorModel');
-const modalUsefulLinks = modal.querySelector('.usefulLinks');
-const modalUsefulLinkModel = modalUsefulLinks.querySelector('.usefulLinkModel');
 const modalLocation = modal.querySelector('.modalLocation');
-const modalSubscribeButton = modal.querySelector('.modalSubscribeButton');
+const modalButton = modal.querySelector('.modalButton');
 const cardDurationValue = modal.querySelector('.cardDurationValue');
 
 const modalBackground = document.getElementById('modalBackground');
@@ -71,19 +69,19 @@ const openModal = (cardData) => {
     modalInstructors.appendChild(newInstructor);
   })
 
-  modalUsefulLinks.innerHTML = '';
-  cardData.usefulLinks.forEach((usefulLink) => {
-    const newUsefulLink = modalUsefulLinkModel.cloneNode(true);
-    newUsefulLink.querySelector('.linkTitle').innerHTML = usefulLink.title;
-    newUsefulLink.querySelector('.linkLink').href = usefulLink.url;
-    newUsefulLink.querySelector('.linkLink').innerHTML = usefulLink.url;
-    newUsefulLink.querySelector('.linkQr').src = usefulLink.qrCodeImage;
-    modalUsefulLinks.appendChild(newUsefulLink);
-  })
+  // modalUsefulLinks.innerHTML = '';
+  // cardData.usefulLinks.forEach((usefulLink) => {
+  //   const newUsefulLink = modalUsefulLinkModel.cloneNode(true);
+  //   newUsefulLink.querySelector('.linkTitle').innerHTML = usefulLink.title;
+  //   newUsefulLink.querySelector('.linkLink').href = usefulLink.url;
+  //   newUsefulLink.querySelector('.linkLink').innerHTML = usefulLink.url;
+  //   newUsefulLink.querySelector('.linkQr').src = usefulLink.qrCodeImage;
+  //   modalUsefulLinks.appendChild(newUsefulLink);
+  // })
 
   modalLocation.innerHTML = cardData.local;
 
-  modalSubscribeButton.href = cardData.subscribeButton;
+  modalButton.href = cardData.subscribeButton;
 
   modal.classList.add('active');
 }
