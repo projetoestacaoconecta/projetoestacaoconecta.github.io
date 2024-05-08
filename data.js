@@ -34,7 +34,7 @@ const data = {
         },
       ],
       local: 'local: Câmpus Palmas, Bloco B Labin II.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quando estiver pronto
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
     {
       id: 'workshop2',
@@ -67,7 +67,7 @@ const data = {
         },
       ],
       local: 'local: Câmpus Palmas, Bloco B Labin I.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quando estiver pronto
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
     {
       id: 'workshop3',
@@ -101,7 +101,7 @@ const data = {
         },
       ],
       local: 'local: Câmpus Palmas, Bloco B Labin III.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quando estiver pronto
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
     {
       id: 'workshop4',
@@ -142,7 +142,7 @@ const data = {
         },
       ],
       local: 'UNITINS - Campus Graciosa, Bloco C, Labin IV.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quando estiver pronto
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
     {
       id: 'workshop5',
@@ -175,7 +175,7 @@ const data = {
         },
       ],
       local: 'UNITINS - Campus Graciosa, Bloco B, Labin IV.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quando estiver pronto
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
     {
       id: 'workshop6',
@@ -209,7 +209,7 @@ const data = {
         },
       ],
       local: 'UNITINS - Campus Graciosa, Bloco B, Sala 10.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar o link do portal quando estiver pronto
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
     {
       id: 'workshop7',
@@ -238,7 +238,7 @@ const data = {
         },
       ],
       local: 'UNITINS - Campus Graciosa, Bloco C, Sala 02.', // confirma o local
-      subscribeButton: 'https://classroom.google.com/u/0/c/NjY4ODk2OTU2MDYz'//colocar
+      subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar
     },
   ],
 }
