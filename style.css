@@ -360,6 +360,10 @@ header .toshadow2 {
   border-radius: var(--border-radius-card);
 }
 
+.qrCodeProjetoEstacaoConecta a {
+  word-break: break-word;  
+}
+
 .otherLinks {
   display: flex;
   align-items: center;
@@ -621,10 +625,9 @@ details[open] {
 
 .modalButton {
   width: 100%;
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
-  /* justify-content: flex-start; */
+  text-decoration: none;
 }
 
 .modalButton button {

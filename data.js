@@ -26,13 +26,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      usefulLinks: [
-        {
-          title: 'links gerais',
-          url: 'https://dontpad.com/estacaoconectaUNITINS/figma',
-          qrCodeImage: 'images/workshopfigma/qr-codefigma.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'local: Câmpus Palmas, Bloco B Labin II.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -59,13 +53,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      usefulLinks: [
-        {
-          title: 'link de convite sala classroom',
-          url: 'https://classroom.google.com/c/NjY4ODk2OTU2MDYz?cjc=gfjni7n',
-          qrCodeImage: 'images/htmlecss/qr-codehtmlcssjs.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'local: Câmpus Palmas, Bloco B Labin I.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -88,18 +76,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      usefulLinks: [
-        {
-          title: 'GitHub JoaoIto',
-          url: 'https://github.com/JoaoIto',
-          qrCodeImage: 'images/workshopgit/qr-codegitj.png'
-        },
-        {
-          title: 'GitHub Vitória',
-          url: 'https://github.com/viihgabs',
-          qrCodeImage: 'images/workshopgit/qr-codegitv.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'local: Câmpus Palmas, Bloco B Labin III.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -134,13 +111,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      usefulLinks: [
-        {
-          title: 'Material do Workshop de edição',
-          url: 'https://drive.google.com/drive/folders/14zsyMCyln7hvhjutol6MNqOCcYFTw8NE?usp=sharing',
-          qrCodeImage: 'images/workshopferramenta/qr-codeferramenta.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'UNITINS - Campus Graciosa, Bloco C, Labin IV.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -167,13 +138,7 @@ const data = {
           photo: 'images/user.jpg'
         },
       ],
-      usefulLinks: [
-        {
-          title: 'Google Sala de Aula',
-          url: 'https://classroom.google.com/c/NjY4ODk1NTg5Mzgz?cjc=oe6z2xv',
-          qrCodeImage: 'images/montagemdecomputador/qr-codemontagem.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'UNITINS - Campus Graciosa, Bloco B, Labin IV.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -196,18 +161,7 @@ const data = {
           photo: 'images/user.jpg'
         },
       ],
-      usefulLinks: [
-        {
-          title: 'Google Sala de Aula',
-          url: 'https://drive.google.com/drive/u/3/folders/11WgWUi5jq1UyQBEcqkewnvb0ZY5m3QiL',
-          qrCodeImage: 'images/boasprativa/qr-codeboass.png'
-        },
-        {
-          title: 'Playlist Recomendada',
-          url: 'https://www.youtube.com/playlist?list=PLl0IAB0xVmuS_iNXFUdYbBGdArj6dKF8o',
-          qrCodeImage: 'images/boasprativa/qr-codeboasy.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'UNITINS - Campus Graciosa, Bloco B, Sala 10.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -230,13 +184,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      usefulLinks: [
-        {
-          title: 'Turma Google Sala de Aula',
-          url: 'https://classroom.google.com/c/NjY4ODkzNTk0NDQz',
-          qrCodeImage: 'images/workshop-bpmn/qr-codebpmn.png'
-        },
-      ],
+      classroomLink: '########################################',
       local: 'UNITINS - Campus Graciosa, Bloco C, Sala 02.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar
     },

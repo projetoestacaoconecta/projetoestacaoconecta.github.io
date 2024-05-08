@@ -34,7 +34,8 @@ const modalLongDescription = modal.querySelector('.modalLongDescription');
 const modalInstructors = modal.querySelector('.modalInstructors');
 const modalInstrutorModel = modalInstructors.querySelector('.modalInstrutorModel');
 const modalLocation = modal.querySelector('.modalLocation');
-const modalButton = modal.querySelector('.modalButton');
+const subscribeButtonModal = modal.querySelector('.subscribeButtonModal');
+const classroomLinkButton = modal.querySelector('.classroomLinkButton');
 const cardDurationValue = modal.querySelector('.cardDurationValue');
 
 const modalBackground = document.getElementById('modalBackground');
@@ -69,19 +70,10 @@ const openModal = (cardData) => {
     modalInstructors.appendChild(newInstructor);
   })
 
-  // modalUsefulLinks.innerHTML = '';
-  // cardData.usefulLinks.forEach((usefulLink) => {
-  //   const newUsefulLink = modalUsefulLinkModel.cloneNode(true);
-  //   newUsefulLink.querySelector('.linkTitle').innerHTML = usefulLink.title;
-  //   newUsefulLink.querySelector('.linkLink').href = usefulLink.url;
-  //   newUsefulLink.querySelector('.linkLink').innerHTML = usefulLink.url;
-  //   newUsefulLink.querySelector('.linkQr').src = usefulLink.qrCodeImage;
-  //   modalUsefulLinks.appendChild(newUsefulLink);
-  // })
-
   modalLocation.innerHTML = cardData.local;
 
-  modalButton.href = cardData.subscribeButton;
+  subscribeButtonModal.href = cardData.subscribeButton;
+  classroomLinkButton.href = cardData.classroomLink;
 
   modal.classList.add('active');
 }
