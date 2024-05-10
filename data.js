@@ -218,8 +218,8 @@ const data = {
       title: 'Workshop para Modelagem usando BPMN',
       image: 'images/workshop-bpmn/bpmn.png',
       tags: ['Gestão de fluxo', 'Velocidade', 'Gestão de projetos'],
-      shortDescription: 'Nesse Workshop você vai aprender o que é e para que serve o BPMN.',
-      longDescription: 'Nesse Workshop você vai aprender para que serve o BPMN.',
+      shortDescription: 'O que é o BPMN. Para que serve o BPMN. Qual a diferença entre BPMN e Diagrama de Atividades UML. Qual é o significado de cada símbolo BPMN. Como conectar os símbolos BPMN. O que são as raias em BPMN e como utilizá-las. Modelando um negócio usando BPMN.',
+      longDescription: 'O conteúdo do curso será disponibilizado no Google Classroom antes do dia da atividade. Iremos disponibilizar vídeoaulas e material escrito. No dia da atividade iremos colher as assinaturas dos inscritos em um papel, teremos uma explanação teórica e em seguida modelaremos um negócio real usando BPMN em uma sala de aula.',
       instructors: [
         {
           name: 'Jeezyel Pereira Costa',
@@ -227,6 +227,10 @@ const data = {
         },
         {
           name: 'Leandro Guimarães Garcia',
+          photo: 'images/user.jpg'
+        },
+        {
+          name: 'Matheus Naves',
           photo: 'images/user.jpg'
         }
       ],
