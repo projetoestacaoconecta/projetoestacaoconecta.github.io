@@ -26,7 +26,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODk1NTg5Mzgz?cjc=oe6z2xv',
       local: 'local: Câmpus Palmas, Bloco B Labin II.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -53,7 +53,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODk2OTU2MDYz?cjc=gfjni7n',
       local: 'local: Câmpus Palmas, Bloco B Labin I.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -76,7 +76,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODkxNTc3NDE5?cjc=yzkglow',
       local: 'local: Câmpus Palmas, Bloco B Labin III.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -111,7 +111,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODk2NTA2MDE4?cjc=xyrj3df',
       local: 'UNITINS - Campus Graciosa, Bloco C, Labin IV.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -138,7 +138,7 @@ const data = {
           photo: 'images/user.jpg'
         },
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODk2NDg4OTI4?cjc=r466ma4',
       local: 'UNITINS - Campus Graciosa, Bloco B, Labin IV.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -161,7 +161,7 @@ const data = {
           photo: 'images/user.jpg'
         },
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODk0MjYwODUw?cjc=4ept5lz',
       local: 'UNITINS - Campus Graciosa, Bloco B, Sala 10.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar o link do portal quando estiver pronto
     },
@@ -173,7 +173,7 @@ const data = {
       image: 'images/workshop-bpmn/bpmn.png',
       tags: ['Gestão de fluxo', 'Velocidade', 'Gestão de projetos'],
       shortDescription: 'O que é o BPMN. Para que serve o BPMN. Qual a diferença entre BPMN e Diagrama de Atividades UML. Qual é o significado de cada símbolo BPMN. Como conectar os símbolos BPMN. O que são as raias em BPMN e como utilizá-las. Modelando um negócio usando BPMN.',
-      longDescription: 'O conteúdo do curso será disponibilizado no Google Classroom antes do dia da atividade. Iremos disponibilizar vídeoaulas e material escrito. No dia da atividade iremos colher as assinaturas dos inscritos em um papel, teremos uma explanação teórica e em seguida modelaremos um negócio real usando BPMN em uma sala de aula.',
+      longDescription: 'O conteúdo do curso será disponibilizado no Google Sala de Aula antes do dia da atividade. Iremos disponibilizar vídeoaulas e material escrito. No dia da atividade iremos colher as assinaturas dos inscritos em um papel, teremos uma explanação teórica e em seguida modelaremos um negócio real usando BPMN em uma sala de aula.',
       instructors: [
         {
           name: 'Jeezyel Pereira Costa',
@@ -188,7 +188,7 @@ const data = {
           photo: 'images/user.jpg'
         }
       ],
-      classroomLink: '########################################',
+      classroomLink: 'https://classroom.google.com/c/NjY4ODkzNTk0NDQz?cjc=e5r4jjr',
       local: 'UNITINS - Campus Graciosa, Bloco C, Sala 02.', // confirma o local
       subscribeButton: 'https://www.unitins.br/Eventos/Inscricao/1852'//colocar
     },
